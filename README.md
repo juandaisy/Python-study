@@ -105,5 +105,24 @@ p.sayHi()
         
 可指定最小的字段宽度，如："%5d" % 2。也可用句点符指定附加的精度，如："%.3d" % 3。
 
+# 转义序列 
+下面列出了 Python 支持的所有转义序列。很多你也许不会用到，不过还是要记住它们的格式和功能。 试着在字符串中应用它们，看看它们的功能。
+转义符          功能 
+\\           Backslash () 反斜杠 
+\'           Single quote (‘) 单引号 
+\"           Double quote (”) 双引号 
+\a           ASCII Bell (BEL) 响铃符 
+\b           ASCII Backspace (BS) 退格符 
+\f           ASCII Formfeed (FF) 进纸符 
+\n           ASCII Linefeed (LF) 换行符 
+\N{name}     Unicode 数据 库中的字符名， 其中 name 就 是它的名字 (Unicode only) 
+\r           ASCII Carriage Return (CR) 回车符 
+\t           ASCII Horizontal Tab (TAB) 水 平制表符 
+\uxxxx       值为 16 位十 六进制值 xxxx 的字符 (Unicode only) 
+\Uxxxxxxxx   值为 32 位十 六进制值 xxxx 的字符 (Unicode 转义符 功能 only) 
+\v           ASCII Vertical Tab (VT) 垂直制 表符 
+\ooo         值为八进制值 ooo 的字符 
+\xhh         值为十六进制 数 hh 的字符 
+
 
    
