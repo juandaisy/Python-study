@@ -1,0 +1,15 @@
+sort() 内建排序
+sorted()升序排序
+
+pop()移除列表中的一个元素（默认最后一个元素，并返回该元素的值）
+List.pop(obj = list[-1])
+
+exit(0) 中断某个程序
+exit(1)表示发生了错误
+
+split()拆分字符串
+split(str = "", num = string.count(str))[n]
+
+assert 断言
+
+del python中del作用在变量上，而不是数据
