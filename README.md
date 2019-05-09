@@ -32,3 +32,13 @@ c.sort()
 s = ''
 s.join(c)
 
+## git
+git status
+git pull
+git clone
+git add
+git commit
+git push
+
+git add . && git commit . -m update && git push
+
