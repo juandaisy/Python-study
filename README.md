@@ -19,11 +19,11 @@ dict([['a','b']])
 
 ## 99
 fp = open()
-fp.read()
+a = fp.read()
 fp.close()
 
 fp = open('','w')
-fp.write()
+fp.write('ahjdsgh')
 fp.close()
 
 c = list(a+b)
