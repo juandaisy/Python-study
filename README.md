@@ -39,6 +39,6 @@ git clone
 git add
 git commit
 git push
-
+git log
 git add . && git commit . -m update && git push
 
