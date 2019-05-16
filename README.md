@@ -42,3 +42,9 @@ git push
 git log
 git add . && git commit . -m update && git push
 
+## 10
+import time
+
+time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+
+time.sleep()
